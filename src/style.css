@@ -1,0 +1,96 @@
+#header {
+    background: linear-gradient(to right, #5b957e, #1a2c3f);
+}
+section {
+    background: #202124;
+    color: white;
+}
+.card-body{
+    background: linear-gradient(to right, #5b957e, #1a2c3f);
+}
+.card-experience{
+    background: linear-gradient(to right, #131314, #141516);
+}
+.card{
+    background-color: transparent;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #141516;
+}
+
+.dateText{
+    color: #5b957e;
+    font-weight: normal;
+    font-style: italic;
+}
+.underLine{
+    background: linear-gradient(to right, #5b957e, #1a2c3f);
+    height: 15px;
+}
+
+.image-container {
+    height: 30rem;
+    overflow: hidden;
+    width: 100%; /* fill column width */
+    display: block;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* crop, maintain aspect ratio */
+    object-position: center;
+    display: block;
+}
+
+.image-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* crop, maintain aspect ratio */
+    object-position: center;
+    display: block;
+}
+
+.mt-n1 {
+    margin-top: -0.25rem !important;
+}
+.mt-n2 {
+    margin-top: -0.5rem !important;
+}
+.mt-n3 {
+    margin-top: -0.75rem !important;
+}
+.mt-n4 {
+    margin-top: -1rem !important;
+}
+.gradient{
+    background: linear-gradient(to right, #5b957e, #1a2c3f); !important;
+}
+.card-text, .card-title, .nav-item, .nav-link, .nav-item, .nav{
+    color: white; !important;
+}
+.nav-link:hover{
+    color: #141516;
+}
+
+.progress {
+    width: 70%;
+}
+.image-container-big{
+    height: 50rem; !important;
+}
+
+@media screen and (max-width: 800px) {
+    .image-container img{
+        height: 25rem;
+    }
+    .image-container {
+        height: 25rem;
+    }
+    .image-container video {
+        height: 25rem;
+    }
+}
