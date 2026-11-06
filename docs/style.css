@@ -1,3 +1,11 @@
+body, head, footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #202124;
+}
+
 #header {
     background: linear-gradient(to right, #5b957e, #1a2c3f);
 }
@@ -14,8 +22,14 @@ section {
 .card{
     background-color: transparent;
 }
+
+.card-img-top{
+    max-height: 17rem !important;
+}
+
 a{
     color: white;
+    text-decoration: none;
 }
 a:hover{
     color: #141516;
@@ -93,4 +107,10 @@ a:hover{
     .image-container video {
         height: 25rem;
     }
+}
+
+
+.logo_icon {
+    width: 1rem;
+    padding-right: 0.25rem;
 }

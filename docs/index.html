@@ -5,24 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DeSijens Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Toolbox.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <link rel="icon" href="img/favicon0.png" type="image/png">
 
 </head>
 <body>
 <!-- Header -->
-<header id="header">
-    <div class="container">
-        <div class="row">
-            <div class="col pt-2 pb-2">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="img/logo1.png" width="auto" height="70" class="d-inline-block align-top" alt="">
-                    </a>
-                </nav>
+<header class="pt-3 pb-3">
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+        <div class="container">
+            <div>
+                <img src="./img/logo1.png" alt="logo" class="logo_icon">
+                <a class="navbar-brand" href="#">Portfolio Jillert Sijens</a>
+            </div>
+            <div class="card gradient-background" id="navbar-card">
+                <div class="card-body container">
+                    <div class="row">
+                        <a class="col-3" href="#">Link</a>
+                        <a class="col-3" href="#">Link</a>
+                        <a class="col-3" href="#">Link</a>
+                        <a class="col-3" href="#">Link</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
 </header>
 <!-- Intro -->
 <section>
@@ -48,6 +62,127 @@
         </div>
     </div>
 </section>
+
+
+<section class="toolbox container text-center py-5">
+    <h2 class="display-4 fw-bold mb-5">Toolbox</h2>
+
+    <div class="toolbox-carousel" id="toolbox">
+
+        <!-- Windows -->
+        <div class="tool-card" style="--tool-bg:white; --tool-fg:#2773ba">
+            <img src="./img/Toolbox/Windows.webp" alt="Windows" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+
+        <!-- Indesign -->
+        <div class="tool-card" style="--tool-bg:#450c21; --tool-fg:#e83b68;">
+            <img src="./img/Toolbox/Indesign.webp" alt="InDesign" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- Photoshop -->
+        <div class="tool-card" style="--tool-bg:#132034; --tool-fg:#52a0d8;">
+            <img src="./img/Toolbox/Photoshop.webp" alt="Photoshop" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- Illustrator -->
+        <div class="tool-card" style="--tool-bg:#2c0d0e; --tool-fg:#f4981a;">
+            <img src="./img/Toolbox/Illustrator.webp" alt="Illustrator" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- Godot -->
+        <div class="tool-card" style="--tool-bg:#1c2023; --tool-fg:#488cbf;">
+            <img src="./img/Toolbox/Godot.webp" alt="Godot" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- Figma -->
+        <div class="tool-card" style="--tool-bg:#0b0c0c; --tool-fg:#4bb37d;">
+            <img src="./img/Toolbox/Figma.webp" alt="Figma" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- Davinci Resolve -->
+        <div class="tool-card" style="--tool-bg:#0b0c0c; --tool-fg:#cfd83d;">
+            <img src="./img/Toolbox/Davinci.png" alt="DaVinci Resolve" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- After Effects -->
+        <div class="tool-card" style="--tool-bg:#21244d; --tool-fg:#9294c9;">
+            <img src="./img/Toolbox/After_affects.webp" alt="After Effects" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <!-- Blender -->
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#eb7604;">
+            <img src="./img/Toolbox/Blender.webp" alt="Blender" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#564596;">
+            <img src="./img/Toolbox/Bootstrap.webp" alt="Bootstrap" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#0c4580;">
+            <img src="./img/Toolbox/C%23.png" alt="C#" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#3b60aa;">
+            <img src="./img/Toolbox/Css.webp" alt="CSS" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#e44d27;">
+            <img src="./img/Toolbox/Html.webp" alt="HTML" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#5382a1;">
+            <img src="./img/Toolbox/Java.webp" alt="Java" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+
+        <div class="tool-card" style="--tool-bg:#000000; --tool-fg:#f6df19;">
+            <img src="./img/Toolbox/Js.webp" alt="Js" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#04628a;">
+            <img src="./img/Toolbox/MySQL.png" alt="MySQL" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#3773a5;">
+            <img src="./img/Toolbox/Python.webp" alt="Python" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#3773a5;">
+            <img src="./img/Toolbox/Wordpress.svg" alt="Wordpress" class="tool-img" draggable="false">
+            <i class="bi bi-pen tool-badge"></i>
+        </div>
+
+        <div class="tool-card" style="--tool-bg:#1c2023; --tool-fg:#ffffff;">
+            <img src="./img/Toolbox/github.svg" alt="github" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#1c2023; --tool-fg:#ffffff;">
+            <img src="./img/Toolbox/C++.svg" alt="C++" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#59328a;">
+            <img src="./img/Toolbox/Blazor.png" alt="Blazor" class="tool-img" draggable="false">
+            <i class="bi bi-code-slash tool-badge"></i>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center gap-4 mt-4">
+        <span class="legend-pill"><i class="bi bi-code-slash"></i> Tech</span>
+        <span class="legend-pill"><i class="bi bi-pen"></i> Design</span>
+    </div>
+</section>
+
+
 <!-- Portfolio cards -->
 <section>
     <div class="container">
@@ -58,57 +193,62 @@
             </div>
         </div>
         <div class="row pb-5">
-            <div class="col-lg-6 col-12 pt-2 pb-2">                <!-- Card 1, logo's en huisstijlen -->
-                <div class="card" style="width: auto;">
+            <div class="col-lg-4 col-12 pt-2 pb-2">                <!-- Card 1, logo's en huisstijlen -->
+                <div class="card" style="width: auto; height: 10rem;">
                     <img class="card-img-top" height="auto" src="img/VDVT3.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Logo's en Huisstijlen</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"></p>
                         <a href="logo&huisstijl.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 pt-2">                 <!-- Card 2, ICT opdrachten -->
+            <div class="col-lg-4 col-12 pt-2">                 <!-- Card 2, ICT opdrachten -->
                 <div class="card" style="width: auto;">
                     <img class="card-img-top" src="img/ICT0.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">ICT</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"></p>
                         <a href="ict.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 pt-4">                 <!-- Card 3, Flyers -->
+            <div class="col-lg-4 col-12 pt-2">                 <!-- Card 3, Overige -->
                 <div class="card" style="width: auto;">
                     <img class="card-img-top" src="img/Flyer10.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Flyers & spandoeken</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Overige</h5>
+                        <p class="card-text"></p>
                         <a href="flyer&spandoek.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 pt-4">                <!-- Card 4, persoonlijke kaarten -->
+            <!-- 
+            <div class="col-lg-2 col-12 pt-2">                Card 4, persoonlijke kaarten
                 <div class="card" style="width: auto;">
                     <img class="card-img-top" src="img/Poster1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Persoonlijke kaarten</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"></p>
                         <a href="kaarten.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 pt-4">                 <!-- Card 5, webdevelopment en design -->
+            -->
+            <!--
+            <div class="col-lg-2 col-12 pt-2">                  Card 5, webdevelopment en design
                 <div class="card" style="width: auto;">
                     <img class="card-img-top" src="img/Website0.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Webdesign & webdevelopment</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"></p>
                         <a href="web.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 pt-4">                 <!-- Card 6, photoshop -->
+            -->
+            <!--
+            <div class="col-lg-6 col-12 pt-4">                  Card 6, photoshop
                 <div class="card" style="width: auto;">
                     <img class="card-img-top" src="img/Spandoek0.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -118,7 +258,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 pt-4">                 <!-- Card 7, overige -->
+            -->
+            <!--
+            <div class="col-lg-6 col-12 pt-4">                  Card 7, overige
                 <div class="card" style="width: auto;">
                     <img class="card-img-top" src="img/Drawing3.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -128,6 +270,7 @@
                     </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </section>
@@ -140,7 +283,7 @@
             </div>
         </div>
         <div class="row pb-5">
-            <div class="col-12 pb-3">                 <!-- Card 1, studie -->
+            <div class="col-6 pb-3">                 <!-- Card 1, studie -->
                 <div class="card" style="width: auto;">
                     <div class="card-body card-experience">
                         <h3 class="card-title">Studie</h3>
@@ -160,7 +303,7 @@
                     <div class="underLine"></div>
                 </div>
             </div>
-            <div class="col-12">                 <!-- Card 2, werk -->
+            <div class="col-6">                 <!-- Card 2, werk -->
                 <div class="card" style="width: auto;">
                     <div class="card-body card-experience">
                         <h3 class="card-title">Werk</h3>
@@ -191,7 +334,7 @@
         </div>
     </div>
 </section>
-<section>
+<!--<section>
     <div class="container">
         <div class="row">
             <div class="col-12 pb-3">
@@ -199,33 +342,33 @@
             </div>
         </div>
         <div class="row pb-5">
-            <div class="col-12 pb-3">                 <!-- Card 1, Graphic design -->
+            <div class="col-12 pb-3">                 Card 1, Graphic design
                 <div class="card" style="width: auto;">
                     <div class="card-body card-experience">
                         <h3 class="card-title">Graphic design</h3>
                         <div class="pt-2">
-                            <!-- Adobe Illustrator -->
+                            Adobe Illustrator
                             <h5 class="card-text pb-1">Adobe Illustrator</h5>
                             <div class="progress">
                                 <div class="gradient progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="pt-3">
-                            <!-- Adobe Photoshop -->
+                            Adobe Photoshop
                             <h5 class="card-text pb-1">Adobe Photoshop</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="pt-3">
-                            <!-- Davinci Resolve -->
+                            Davinci Resolve
                             <h5 class="card-text pb-1">Davinci Resolve</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="pt-3">
-                            <!-- Adobe After Effects -->
+                            Adobe After Effects
                             <h5 class="card-text pb-1">Adobe After Effects</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -235,33 +378,33 @@
                     <div class="underLine"></div>
                 </div>
             </div>
-            <div class="col-12">                 <!-- Card 2, ICT -->
+            <div class="col-12">                 Card 2, ICT
                 <div class="card" style="width: auto;">
                     <div class="card-body card-experience">
                         <h3 class="card-title">ICT</h3>
                         <div class="pt-2">
-                            <!-- HTML/CSS -->
+                            HTML/CSS
                             <h5 class="card-text pb-1">HTML/CSS</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="pt-3">
-                            <!-- SQL -->
+                            SQL
                             <h5 class="card-text pb-1">SQL</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="pt-3">
-                            <!-- UML -->
+                            UML
                             <h5 class="card-text pb-1">UML</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="pt-3">
-                            <!-- C# & Java -->
+                            C# & Java
                             <h5 class="card-text pb-1">C# & Java</h5>
                             <div class="progress">
                                 <div class="progress-bar gradient" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -273,7 +416,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>  -->
 
 <!-- Footer -->
 <section class="p-5 gradient">
@@ -306,5 +449,8 @@
     </footer>
 </section>
 
+<!-- Bootstrap JavaScript Bundle (includes Popper) -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+<script src="toolbox.js"></script>
 </body>
 </html>
