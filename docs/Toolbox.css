@@ -1,0 +1,67 @@
+.toolbox-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    /* kaarten vervagen aan de randen */
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+}
+
+.tool-track {
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+    will-change: transform;
+}
+
+.tool-card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 4rem;
+    height: 8rem;
+    border-radius: 1rem;
+    background: var(--tool-bg, #333);
+    color: var(--tool-fg, #fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    user-select: none;
+}
+
+@media (max-width: 767.98px) {
+    .tool-card {
+        width: 5rem;
+        height: 10rem;
+    }
+
+    .tool-label {
+        height: 3rem;
+    }
+}
+
+.tool-img {
+    width: 60%;
+    max-height: 50%;
+    object-fit: contain;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+/* Bootstrap Icon onderaan de kaart (coding / design) */
+.tool-badge {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+    color: var(--tool-fg, #fff);
+}
+
+.toolbox {
+    padding-bottom: 5rem;
+}
