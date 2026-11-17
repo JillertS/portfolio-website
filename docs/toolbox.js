@@ -41,8 +41,8 @@ function build() {
 build();
 window.addEventListener('resize', build);
 
-carousel.addEventListener('mouseenter', () => paused = true);
-carousel.addEventListener('mouseleave', () => paused = false);
+//carousel.addEventListener('mouseenter', () => paused = true);
+//carousel.addEventListener('mouseleave', () => paused = false);
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

@@ -1,116 +1,150 @@
-body, head, footer {
+/* ===== Variabelen ===== */
+:root {
+    --gradient: linear-gradient(90deg, #0C3148, #679ABC);
+    --gradient-dark: linear-gradient(to right, #131314, #141516);
+}
+
+/* ===== Basis ===== */
+body {
     font-family: 'Poppins', sans-serif;
+    background: var(--gradient-dark);
 }
 
-body{
-    background: #202124;
-}
-
-#header {
-    background: linear-gradient(to right, #5b957e, #1a2c3f);
-}
 section {
-    background: #202124;
     color: white;
 }
-.card-body{
-    background: linear-gradient(to right, #5b957e, #1a2c3f);
-}
-.card-experience{
-    background: linear-gradient(to right, #131314, #141516);
-}
-.card{
-    background-color: transparent;
+
+h2 {
+    text-align: center;
 }
 
-.card-img-top{
-    max-height: 17rem !important;
-}
-
-a{
+a {
     color: white;
     text-decoration: none;
 }
-a:hover{
-    color: #141516;
+
+a:hover {
+    color: #679ABC;
 }
 
-.dateText{
+/* ===== Gradient-achtergronden ===== */
+.card-body,
+.underLine,
+.gradient,
+.about-card,
+#navbar-card {
+    background: var(--gradient);
+}
+
+/* ===== Header / navbar ===== */
+.logo_icon {
+    width: 1rem;
+    padding-right: 0.25rem;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+    color: white;
+    font-weight: 600;
+}
+
+#navbar-card {
+    border-radius: 3rem;
+    overflow: hidden;
+    box-shadow: black 5px 5px 5px;
+    padding: 1rem 3rem;
+}
+
+#navbar-card .card-body {
+    background: none; /* gradient zit al op de card zelf */
+}
+
+/* ===== Cards (algemeen) ===== */
+.card {
+    background-color: transparent;
+}
+
+.card-text,
+.card-title {
+    color: white;
+}
+
+.card-img-top {
+    max-height: 17rem !important;
+}
+
+.border_transparent {
+    border-color: transparent;
+}
+
+/* ===== Portfolio-kaarten op de homepage ===== */
+.portfolio-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ===== Over mij ===== */
+.about-card {
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+}
+
+.about-photo {
+    position: relative;
+    overflow: hidden;
+    min-height: 25rem;
+    max-height: 40rem;
+}
+
+.about-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    transform: scaleX(-1);
+}
+
+/* ===== Portfolio-kaarten (afbeeldingen op de projectpagina's) ===== */
+.image-container {
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.image-container img,
+.image-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* ===== Experience ===== */
+.card-experience {
+    background: #0b0c0c;
+}
+
+.dateText {
     color: #5b957e;
     font-weight: normal;
     font-style: italic;
 }
-.underLine{
-    background: linear-gradient(to right, #5b957e, #1a2c3f);
+
+.underLine {
     height: 15px;
 }
 
-.image-container {
-    height: 30rem;
-    overflow: hidden;
-    width: 100%; /* fill column width */
-    display: block;
-}
-
-.image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* crop, maintain aspect ratio */
-    object-position: center;
-    display: block;
-}
-
-.image-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* crop, maintain aspect ratio */
-    object-position: center;
-    display: block;
-}
-
-.mt-n1 {
-    margin-top: -0.25rem !important;
-}
-.mt-n2 {
-    margin-top: -0.5rem !important;
-}
-.mt-n3 {
-    margin-top: -0.75rem !important;
-}
-.mt-n4 {
-    margin-top: -1rem !important;
-}
-.gradient{
-    background: linear-gradient(to right, #5b957e, #1a2c3f); !important;
-}
-.card-text, .card-title, .nav-item, .nav-link, .nav-item, .nav{
-    color: white; !important;
-}
-.nav-link:hover{
-    color: #141516;
-}
-
-.progress {
-    width: 70%;
-}
-.image-container-big{
-    height: 50rem; !important;
-}
-
-@media screen and (max-width: 800px) {
-    .image-container img{
-        height: 25rem;
-    }
+/* ===== Responsive ===== */
+@media screen and (max-width: 1000px) {
     .image-container {
         height: 25rem;
+        object-position: center 15%;
     }
-    .image-container video {
-        height: 25rem;
-    }
-}
-
-
-.logo_icon {
-    width: 1rem;
-    padding-right: 0.25rem;
 }

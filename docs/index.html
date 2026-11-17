@@ -19,53 +19,64 @@
 <body>
 <!-- Header -->
 <header class="pt-3 pb-3">
-    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <div>
-                <img src="./img/logo1.png" alt="logo" class="logo_icon">
-                <a class="navbar-brand" href="#">Portfolio Jillert Sijens</a>
-            </div>
-            <div class="card gradient-background" id="navbar-card">
-                <div class="card-body container">
-                    <div class="row">
-                        <a class="col-3" href="#">Link</a>
-                        <a class="col-3" href="#">Link</a>
-                        <a class="col-3" href="#">Link</a>
-                        <a class="col-3" href="#">Link</a>
-                    </div>
+            <div class="row">
+                <div class="col-6 d-flex justify-content-start align-items-center">
+                    <img src="./img/Logo0.png" alt="logo" class="logo_icon">
+                    <a class="navbar-brand" href="index.html">Portfolio Jillert Sijens</a>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <a class="px-2" href="#over mij">intro</a>
+                    <a class="px-2" href="#toolboxx">Toolbox</a>
+                    <a class="px-2" href="#portfolio">Portfolio</a>
+                    <a class="px-2" href="#ervaring">Ervaring</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
 <!-- Intro -->
-<section>
-    <div class="container">
-        <div class="row pt-5 pb-2">
-            <div class="col">
-                <h1>Welkom op mijn portfolio website!</h1>
-            </div>
-        </div>
-        <div class="row pb-3">
-            <div class="col-lg-8 col-12">
-                <p>Mijn naam is Jillert Sijens, ik ben 22 jaar oud en woon in het kleine dorpje Lichtaard. 
-                    Ik ben graphic designer en volg momenteel de opleiding HBO ICT aan NHL Stenden in Leeuwarden. 
-                    Op deze portfoliowebsite vind je mijn mooiste werk van de afgelopen jaren. Wil je meer over mij weten, klik dan hieronder.
-                    <br><br>
-                    Let op deze website is nog under construction 
-                </p>
-                <a href="#ervaring" type="button" data-scroll-target="#ervaring" class="btn btn-outline-light pl-4 pr-4 mt-2 mb-4">Klik hier</a>
-            </div>
-            <div class="col-lg-4 col-8">
-                <img class="img-fluid rounded pb-4" src="img/Jillert2.jpg" alt="Foto van Jillert Sijens">
+
+<section id="over mij">
+    <div class="container text-white" id="hero">
+        <div class="card about-card overflow-hidden border-0 row g-0">
+            <div class="row g-0">
+
+                <!-- Tekstkant -->
+                <div class="col-12 col-lg-7 gradient-background p-5">
+                    <div class="p-4 justify-content-center">
+                        <h1 class="display-4 fw-bold mb-3 text-white">Over mij</h1>
+                        <p class="mb-4 fw-light text-white">
+                            Ik ben Jillert Sijens, 23 jaar en woon in Lichtaard. Ik ben afgestudeerd als mediavormgever/graphic designer en studeer nu HBO ICT aan NHL Stenden in Leeuwarden, 
+                            met Software Engineering als richting. Dankzij mijn achtergrond in design let ik er bij het maken van software ook op dat het er goed uitziet en prettig in gebruik is. 
+                            Later wil ik van deze combinatie mijn werk maken als fullstack webdeveloper.
+                        </p>
+                        <p class="mb-4 fw-light text-white">
+                            Op dit moment ben ik op zoek naar een stageplek als software engineer.
+                            Op deze website vind je mijn werk, zowel mijn designs als de projecten die ik heb gemaakt en aan mee heb geholpen.
+                        </p>
+                        
+                        <!-- <div>
+                             <a href="#" class="btn btn-dark btn-lg rounded-4 px-4">
+                                 Klik hier! <i class="bi bi-cursor ms-2"></i>
+                             </a>
+                         </div>-->
+                     </div>
+                 </div>
+ 
+                 <!-- Fotokant -->
+                <div class="col-12 col-lg-5 about-photo">
+                    <img src="./img/Jillert%20Sijens_.jpg" alt="photo" class="about-img">
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 
-<section class="toolbox container text-center py-5">
-    <h2 class="display-4 fw-bold mb-5">Toolbox</h2>
+<section class="toolbox container text-center py-3" id="toolboxx">
+    <h2 class="display-4 fw-bold mb-3">Toolbox</h2>
 
     <div class="toolbox-carousel" id="toolbox">
 
@@ -76,19 +87,19 @@
         </div>
 
         <!-- Indesign -->
-        <div class="tool-card" style="--tool-bg:#450c21; --tool-fg:#e83b68;">
+        <div class="tool-card" style="--tool-bg:#49021f; --tool-fg:#e83b68;">
             <img src="./img/Toolbox/Indesign.webp" alt="InDesign" class="tool-img" draggable="false">
             <i class="bi bi-pen tool-badge"></i>
         </div>
 
         <!-- Photoshop -->
-        <div class="tool-card" style="--tool-bg:#132034; --tool-fg:#52a0d8;">
+        <div class="tool-card" style="--tool-bg:#001e36; --tool-fg:#52a0d8;">
             <img src="./img/Toolbox/Photoshop.webp" alt="Photoshop" class="tool-img" draggable="false">
             <i class="bi bi-pen tool-badge"></i>
         </div>
 
         <!-- Illustrator -->
-        <div class="tool-card" style="--tool-bg:#2c0d0e; --tool-fg:#f4981a;">
+        <div class="tool-card" style="--tool-bg:#330000; --tool-fg:#ff9a00;">
             <img src="./img/Toolbox/Illustrator.webp" alt="Illustrator" class="tool-img" draggable="false">
             <i class="bi bi-pen tool-badge"></i>
         </div>
@@ -112,7 +123,7 @@
         </div>
 
         <!-- After Effects -->
-        <div class="tool-card" style="--tool-bg:#21244d; --tool-fg:#9294c9;">
+        <div class="tool-card" style="--tool-bg:#00005b; --tool-fg:#9294c9;">
             <img src="./img/Toolbox/After_affects.webp" alt="After Effects" class="tool-img" draggable="false">
             <i class="bi bi-pen tool-badge"></i>
         </div>
@@ -122,54 +133,74 @@
             <img src="./img/Toolbox/Blender.webp" alt="Blender" class="tool-img" draggable="false">
             <i class="bi bi-pen tool-badge"></i>
         </div>
-
+        
+        <!-- Bootstrap -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#564596;">
             <img src="./img/Toolbox/Bootstrap.webp" alt="Bootstrap" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
-
+        
+        <!-- C# -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#0c4580;">
             <img src="./img/Toolbox/C%23.png" alt="C#" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
-        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#3b60aa;">
+
+        <!-- CSS -->
+        <div class="tool-card" style="--tool-bg:#1b44a4; --tool-fg:#2965f1;">
             <img src="./img/Toolbox/Css.webp" alt="CSS" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
-        <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#e44d27;">
+
+        <!-- HTML -->
+        <div class="tool-card" style="--tool-bg:#a4441b; --tool-fg:#ff872b;">
             <img src="./img/Toolbox/Html.webp" alt="HTML" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
+
+        <!-- Java -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#5382a1;">
             <img src="./img/Toolbox/Java.webp" alt="Java" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
 
+        <!-- JavaScript -->
         <div class="tool-card" style="--tool-bg:#000000; --tool-fg:#f6df19;">
             <img src="./img/Toolbox/Js.webp" alt="Js" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
+
+        <!-- MySql -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#04628a;">
             <img src="./img/Toolbox/MySQL.png" alt="MySQL" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
+
+        <!-- Python -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#3773a5;">
             <img src="./img/Toolbox/Python.webp" alt="Python" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
+
+        <!-- Wordpress -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#3773a5;">
             <img src="./img/Toolbox/Wordpress.svg" alt="Wordpress" class="tool-img" draggable="false">
             <i class="bi bi-pen tool-badge"></i>
         </div>
-
+        
+        <!-- Github -->
         <div class="tool-card" style="--tool-bg:#1c2023; --tool-fg:#ffffff;">
             <img src="./img/Toolbox/github.svg" alt="github" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
+
+        <!-- C++ -->
         <div class="tool-card" style="--tool-bg:#1c2023; --tool-fg:#ffffff;">
             <img src="./img/Toolbox/C++.svg" alt="C++" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
         </div>
+
+        <!-- Blazor -->
         <div class="tool-card" style="--tool-bg:#ffffff; --tool-fg:#59328a;">
             <img src="./img/Toolbox/Blazor.png" alt="Blazor" class="tool-img" draggable="false">
             <i class="bi bi-code-slash tool-badge"></i>
@@ -184,108 +215,68 @@
 
 
 <!-- Portfolio cards -->
-<section>
+<section class="pt-5" id="portfolio">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2>Portfolio</h2>
-                <p>extra uitleg</p>
-            </div>
+        <div class="row text-center">
+            <h2 class="display-4 fw-bold mb-5">Portfolio</h2>
         </div>
-        <div class="row pb-5">
-            <div class="col-lg-4 col-12 pt-2 pb-2">                <!-- Card 1, logo's en huisstijlen -->
-                <div class="card" style="width: auto; height: 10rem;">
-                    <img class="card-img-top" height="auto" src="img/VDVT3.jpg" alt="Card image cap">
-                    <div class="card-body">
+
+        <div class="row pb-3 g-4">
+            <!-- Card 1, logo's en huisstijlen -->
+            <div class="col-lg-4 col-12">
+                <div class="card rounded h-100 border_transparent">
+                    <div class="ratio ratio-4x3 rounded-top overflow-hidden">
+                        <img class="portfolio-img" src="img/VDVT3.jpg" alt="Logo's en huisstijlen">
+                    </div>
+                    <div class="card-body rounded-bottom">
                         <h5 class="card-title">Logo's en Huisstijlen</h5>
                         <p class="card-text"></p>
-                        <a href="logo&huisstijl.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
+                        <a href="logo&huisstijl.html" class="btn btn-outline-light px-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 pt-2">                 <!-- Card 2, ICT opdrachten -->
-                <div class="card" style="width: auto;">
-                    <img class="card-img-top" src="img/ICT0.jpg" alt="Card image cap">
-                    <div class="card-body">
+
+            <!-- Card 2, ICT opdrachten -->
+            <div class="col-lg-4 col-12">
+                <div class="card rounded h-100 border_transparent">
+                    <div class="ratio ratio-4x3 rounded-top overflow-hidden">
+                        <img class="portfolio-img" src="img/ICT0.jpg" alt="ICT opdrachten">
+                    </div>
+                    <div class="card-body rounded-bottom">
                         <h5 class="card-title">ICT</h5>
                         <p class="card-text"></p>
-                        <a href="ict.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
+                        <a href="ict.html" class="btn btn-outline-light px-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 pt-2">                 <!-- Card 3, Overige -->
-                <div class="card" style="width: auto;">
-                    <img class="card-img-top" src="img/Flyer10.jpg" alt="Card image cap">
-                    <div class="card-body">
+
+            <!-- Card 3, Overige -->
+            <div class="col-lg-4 col-12">
+                <div class="card rounded h-100 border_transparent">
+                    <div class="ratio ratio-4x3 rounded-top overflow-hidden">
+                        <img class="portfolio-img" src="img/Flyer10.jpg" alt="Overige projecten">
+                    </div>
+                    <div class="card-body rounded-bottom">
                         <h5 class="card-title">Overige</h5>
                         <p class="card-text"></p>
-                        <a href="flyer&spandoek.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
+                        <a href="flyer&spandoek.html" class="btn btn-outline-light px-4">Klik hier</a>
                     </div>
                 </div>
             </div>
-            <!-- 
-            <div class="col-lg-2 col-12 pt-2">                Card 4, persoonlijke kaarten
-                <div class="card" style="width: auto;">
-                    <img class="card-img-top" src="img/Poster1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Persoonlijke kaarten</h5>
-                        <p class="card-text"></p>
-                        <a href="kaarten.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
-                    </div>
-                </div>
-            </div>
-            -->
-            <!--
-            <div class="col-lg-2 col-12 pt-2">                  Card 5, webdevelopment en design
-                <div class="card" style="width: auto;">
-                    <img class="card-img-top" src="img/Website0.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Webdesign & webdevelopment</h5>
-                        <p class="card-text"></p>
-                        <a href="web.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
-                    </div>
-                </div>
-            </div>
-            -->
-            <!--
-            <div class="col-lg-6 col-12 pt-4">                  Card 6, photoshop
-                <div class="card" style="width: auto;">
-                    <img class="card-img-top" src="img/Spandoek0.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Photoshop</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
-                    </div>
-                </div>
-            </div>
-            -->
-            <!--
-            <div class="col-lg-6 col-12 pt-4">                  Card 7, overige
-                <div class="card" style="width: auto;">
-                    <img class="card-img-top" src="img/Drawing3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Overige</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="overige.html" class="btn btn-outline-light pl-4 pr-4">Klik hier</a>
-                    </div>
-                </div>
-            </div>
-            -->
         </div>
     </div>
 </section>
 <!-- Ervaring -->
 <section id="ervaring">
     <div class="container">
-        <div class="row">
-            <div class="col-12 pb-3">
-                <h2>Ervaring</h2>
-            </div>
+        <div class="row text-center">
+            <h2 class="display-4 fw-bold mb-5">Experience</h2>
         </div>
+        
         <div class="row pb-5">
             <div class="col-6 pb-3">                 <!-- Card 1, studie -->
-                <div class="card" style="width: auto;">
-                    <div class="card-body card-experience">
+                <div class="card rounded " style="width: auto;">
+                    <div class="card-body card-experience rounded-top">
                         <h3 class="card-title">Studie</h3>
                         <div class="pt-2">
                             <h5 class="card-text mb-0">NHL Stenden Hogeschool - HBO ICT</h5>
@@ -300,12 +291,12 @@
                             <p class="card-text dateText">feb. 2020 - jul. 2020</p>
                         </div>
                     </div>
-                    <div class="underLine"></div>
+                    <div class="underLine rounded-bottom"></div>
                 </div>
             </div>
             <div class="col-6">                 <!-- Card 2, werk -->
-                <div class="card" style="width: auto;">
-                    <div class="card-body card-experience">
+                <div class="card rounded" style="width: auto;">
+                    <div class="card-body card-experience rounded-top">
                         <h3 class="card-title">Werk</h3>
                         <div class="pt-2">
                             <!-- ARDV -->
@@ -328,101 +319,17 @@
                             <p class="card-text dateText">feb. 2020 - jul. 2020</p>
                         </div>
                     </div>
-                    <div class="underLine"></div>
+                    <div class="underLine rounded-bottom"></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 pb-3">
-                <h2>Vaardigheden</h2>
-            </div>
-        </div>
-        <div class="row pb-5">
-            <div class="col-12 pb-3">                 Card 1, Graphic design
-                <div class="card" style="width: auto;">
-                    <div class="card-body card-experience">
-                        <h3 class="card-title">Graphic design</h3>
-                        <div class="pt-2">
-                            Adobe Illustrator
-                            <h5 class="card-text pb-1">Adobe Illustrator</h5>
-                            <div class="progress">
-                                <div class="gradient progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="pt-3">
-                            Adobe Photoshop
-                            <h5 class="card-text pb-1">Adobe Photoshop</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="pt-3">
-                            Davinci Resolve
-                            <h5 class="card-text pb-1">Davinci Resolve</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="pt-3">
-                            Adobe After Effects
-                            <h5 class="card-text pb-1">Adobe After Effects</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="underLine"></div>
-                </div>
-            </div>
-            <div class="col-12">                 Card 2, ICT
-                <div class="card" style="width: auto;">
-                    <div class="card-body card-experience">
-                        <h3 class="card-title">ICT</h3>
-                        <div class="pt-2">
-                            HTML/CSS
-                            <h5 class="card-text pb-1">HTML/CSS</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="pt-3">
-                            SQL
-                            <h5 class="card-text pb-1">SQL</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="pt-3">
-                            UML
-                            <h5 class="card-text pb-1">UML</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="pt-3">
-                            C# & Java
-                            <h5 class="card-text pb-1">C# & Java</h5>
-                            <div class="progress">
-                                <div class="progress-bar gradient" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="underLine"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>  -->
-
 <!-- Footer -->
 <section class="p-5 gradient">
     <footer class="d-flex flex-wrap justify-content-between align-items-center container"> 
         <div class="col-lg-4 d-flex align-items-center">
-            <span class=" text-white">© 2025 Jillert Sijens</span>
+            <span class=" text-white">© 2026 Jillert Sijens</span>
         </div> 
         
         <div class="col-lg-4 d-flex justify-content-center align-items-center">

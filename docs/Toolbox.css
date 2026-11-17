@@ -30,6 +30,12 @@
     user-select: none;
 }
 
+.tool-card:hover {
+    scale: 125%;
+    transition: 1s;
+}
+    
+
 @media (max-width: 767.98px) {
     .tool-card {
         width: 5rem;

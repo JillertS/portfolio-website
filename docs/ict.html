@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="nl" xmlns:object-fit="http://www.w3.org/1999/xhtml">
+<html lang="nl">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DeSijens Portfolio</title>
+    <title>DeSijens Portfolio - ICT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon0.png" type="image/png">
@@ -11,87 +13,286 @@
 
 <body>
 <!-- Header -->
-<header id="header">
-    <div class="container">
-        <div class="row">
-            <div class="col pt-2 pb-2">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="img/logo1.png" width="auto" height="70" class="d-inline-block align-top" alt="">
-                    </a>
-                </nav>
+<header class="p-4">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <div>
+                <img src="./img/Logo0.png" alt="Logo Jillert Sijens" class="logo_icon">
+                <a class="navbar-brand" href="index.html">Portfolio Jillert Sijens</a>
             </div>
         </div>
-    </div>
+    </nav>
 </header>
-<!-- Intro -->
-<section class="pb-5">
-    <div class="container">
-        <div class="row pt-5 pb-2">
-            <div class="col">
-                <h1>Persoonlijke kaarten</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <p>Mijn naam is Jillert Sijens, ik ben 22 jaar oud en woon in het kleine dorpje Lichtaard.
-                    Ik ben graphic designer en volg momenteel de opleiding HBO ICT aan NHL Stenden in Leeuwarden.
-                    Op deze portfoliowebsite vind je mijn mooiste werk van de afgelopen jaren. Wil je meer over mij weten, klik dan hieronder.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Persoonlijke kaarten -->
-<section class="pt-4 pb-4">
+<!-- HBO-ICT1 P1 - Game development -->
+<section class="p-4">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3>Kaarten</h3>
-                <p class="fst-italic mt-n2">Persoonlijke kaarten gemaakt voor verjaardagen en speciale gelegenheden</p>
+                <h3>HBO-ICT1 P1 - Game development</h3>
+                <p class="fst-italic mt-n2">Periode 1, jaar 1</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Game development</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Figma</span>
+                </div>
             </div>
         </div>
         <div class="row g-4">
-            <div class="col-lg-6 col-12">
-                <div class="image-container shadow-lg">
-                    <img src="img/Poster0.jpg" alt="" class="rounded">
-                </div>
-            </div>
-            <div class="col-lg-6 col-12">
-                <div class="image-container shadow-lg">
-                    <img src="img/Poster1.jpg" alt="" class="rounded">
-                </div>
-            </div>
             <div class="col-lg-4 col-12">
-                <div class="image-container shadow-lg">
-                    <img src="img/Poster2.jpg" alt="" class="rounded">
-                </div>
+                <p>De opdrachtgever zag een gat in de markt, een kans om een succesvolle game te ontwikkelen. In een groepje van 4 moesten wij een idee pitchen en een prototype ontwikkelen.</p>
+                <p><strong>Mijn rol:</strong> Op dit moment in de opleiding werd er nog niet gekeken naar coderen maar naar project management. 
+                    Binnen dit project heb ik rechtenvrije visuals gebruikt en mijn eigen visuals toegepast. 
+                    Daarnaast heb ik de leiding genomen en heb ik geprobeerd een mooi concept voor de klant op te zetten.</p>
             </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="image-container shadow-lg">
-                    <img src="img/Poster3.jpg" alt="" class="rounded">
-                </div>
-            </div>
-            <div class="col-lg-4 col-12">
-                <div class="image-container shadow-lg">
-                    <img src="img/Poster4.jpg" alt="" class="rounded">
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/JyPyTIY9tpc"
+                            title="Demo HBO-ICT1 P1 Game development" loading="lazy" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- HBO-ICT1 P2 - Automatisch kattenluikje -->
+<section class="gradient p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>HBO-ICT1 P2 - Automatisch kattenluikje</h3>
+                <p class="fst-italic mt-n2">Periode 2, jaar 1</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Arduino</span>
+                    <span class="badge rounded-pill border border-light fw-normal">MQTT</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Voor dit project moest er een IOT oplossing ontwikkeld worden voor een probleem, het product moest worden voorzien van een ardiuno, sensoren, servo’s en MQTT.</p>
+                <p><strong>Mijn rol:</strong> Voor dit project werd er niet gewerkt in groepjes maar alleen. 
+                    Het leek mij een leuk idee om voor dit project een automatisch kattenluikje op te zetten die alleen open ging wanneer er een kat voor stond. 
+                    Daarnaast heb ik een functie toegevoegd waardoor ik bij kon houden wanneer de kat naar binnen of buiten ging via het luikje, hierdoor kon ik zien of de kat thuis was. <br>
+                    Het kattenluikje werkt met een PIR sensor waarna de servo’s opendraaien zodat het luikje open kan, hierna kan ik de signalen lezen via MQTT op mijn laptop. 
+                    Mijn mooie kattenluikje kunstwerk werkt volledig op de sensoren, arduino, breadbord en servo’s.
+                </p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/qd3_emawbhM"
+                            title="Demo automatisch kattenluikje" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HBO-ICT1 P4 - Stageportaal CJIB -->
+<section class="p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>HBO-ICT1 P4 - Stageportaal CJIB</h3>
+                <p class="fst-italic mt-n2">Periode 4, jaar 1</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Blazor</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Razor</span>
+                    <span class="badge rounded-pill border border-light fw-normal">MySQL</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Dapper</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Voor dit project heeft het CJIB ons gevraagd een stageportaal op te zetten, deze moest gemaakt worden met blazor en verbonden zijn aan een database. 
+                    Het doel van deze opdracht was om het CJIB op ideeën te brengen voor het implementeren van hun stageportaal.</p>
+                <p><strong>Mijn rol:</strong> Voor dit project werkte ik in een groepje van 4 waarbij er goed werd samengewerkt.  
+                    Mijn rol binnen het project was vooral het ontwerp van de oplossing, daarnaast heb ik ook veel code geschreven voor het overdragen en ophalen van data.</p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/NFVHSwSoy1k"
+                            title="Demo Stageportaal CJIB" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HBO-ICT2 P1 - Supermarkt Simulatie -->
+<section class="gradient p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>HBO-ICT2 P1 - Supermarkt Simulatie</h3>
+                <p class="fst-italic mt-n2">Periode 1, jaar 2</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Java</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Voor dit project werd ons gevraagd een supermarktsimulatie op te zetten in java waar vooral de onderhoudbaarheid van de code erg belangrijk was.</p>
+                <p><strong>Mijn rol:</strong> Voor dit project heb ik besloten alleen aan de slag te gaan, dit zorgde ervoor dat ik gemakkelijker mijn eigen visie in het project kon stoppen. Naast dat de supermarktsimulatie goed moest werken vond ik ook dat het er visueel goed uit moest zien. De tiles heb ik zelf ontworpen, de poppetjes komen van itch.io
+                    De supermarkt simulatie werkt als volgt: <br>
+                    -	Een klant komt binnen met een random boodschappenlijst<br>
+                    -	De klant kijkt op zijn boodschappenlijstje en gaat naar de kast waar het eerste product zich bevindt.<br>
+                    -	Hierna kijkt de klant naar het volgende product, totdat alle producten van het lijstje in het mandje zitten.<br>
+                    -	Na het verzamelen van de producten gaat de klant in de rij staan en betaald hij voor de producten bij de kassa.<br>
+                    -	Hierna verlaat de klant de winkel.<br>
+                    -	Als een kast leeg is komt er een vakkenvuller die de kast weer bijvult, hierdoor zijn de kasten maar voor een kleine tijd leeg.<br>
+                    -	De simulatie blijft dit doen totdat het programma afgesloten wordt.<br>
+                </p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/eeq1PI8eBfw"
+                            title="Demo Supermarkt Simulatie" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HBO-ICT2 P2 - Digital Twin Spoordok -->
+<section class="p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>HBO-ICT2 P2 - Digital Twin Spoordok</h3>
+                <p class="fst-italic mt-n2">Opdracht voor de gemeente Leeuwarden</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">HTML</span>
+                    <span class="badge rounded-pill border border-light fw-normal">CSS</span>
+                    <span class="badge rounded-pill border border-light fw-normal">JavaScript</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Java</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Spring Boot</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Database</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Docker</span>
+                    <span class="badge rounded-pill border border-light fw-normal">LLM</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Voor de gemeente Leeuwarden bouwden we een digital twin van het Spoordok op basis van Cesium, een 3D-kaartplatform waarop je eigen data en functies kunt bouwen.</p>
+                <p>De code die we als startpunt kregen was onoverzichtelijk en te complex voor de opdracht. Daarom heb ik die vanaf het begin opgesplitst in kleinere onderdelen en overbodige code verwijderd, zodat het team er sneller mee kon werken.</p>
+                <p><strong>Mijn rol:</strong> de LLM-integratie, de database in Docker, een deel van de Spring Boot-backend en de visuals.</p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/c6p5jSLUxtc"
+                            title="Demo Digital Twin Spoordok" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Minor studio 3D & CGI - The dark forest game -->
+<section class="gradient p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Minor studio 3D &amp; CGI - The dark forest game</h3>
+                <p class="fst-italic mt-n2">Low poly horrorgame met zelfgemaakte 3D-assets</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Blender</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Godot</span>
+                    <span class="badge rounded-pill border border-light fw-normal">3D-animation</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Texturing</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Game development</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Korte beschrijving van het project.</p>
+                <p><strong>Mijn rol:</strong> wat deed jij?</p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/n7TCCnBOX5Q"
+                            title="Demo The dark forest game" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Van der Velde techniek website -->
+<section class="p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Website van der velde techniek (Work in progress)</h3>
+                <p class="fst-italic mt-n2">Opdracht voor Van der Velde Techniek Ginnum</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Design</span>
+                    <span class="badge rounded-pill border border-light fw-normal">HTML</span>
+                    <span class="badge rounded-pill border border-light fw-normal">CSS</span>
+                    <span class="badge rounded-pill border border-light fw-normal">JavaScript</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Blazor</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Razor</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Database</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Dapper</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Korte beschrijving van het project.</p>
+                <p><strong>Mijn rol:</strong> wat deed jij?</p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube-nocookie.com/embed/V0aZ2D5S0Bs"
+                            title="Demo Digital Twin Spoordok" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Website PKN Reitsum -->
+<section class="gradient p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Wordpress website PKN Reitsum</h3>
+                <p class="fst-italic mt-n2">Wordpress website ontworpen voor PKN Reitsum en onderhoud</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge rounded-pill border border-light fw-normal">Webdesign</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Wordpress</span>
+                    <span class="badge rounded-pill border border-light fw-normal">Onderhoud</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-12">
+                <p>Korte beschrijving van het project.</p>
+                <p><strong>Mijn rol:</strong> wat deed jij?</p>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                    <img src="img/Website2.jpg" alt="Website van PKN Reitsum" class="w-100 h-100 object-fit-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer -->
 <section class="p-5 gradient">
     <footer class="d-flex flex-wrap justify-content-between align-items-center container">
         <div class="col-lg-4 d-flex align-items-center">
-            <span class=" text-white">© 2025 Jillert Sijens</span>
+            <span class="text-white">© 2026 Jillert Sijens</span>
         </div>
 
         <div class="col-lg-4 d-flex justify-content-center align-items-center">
-            <a href="index.html" class="text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
-                <img src="img/Logo0.png" alt="logoIcon" width="100%" height="60">
+            <a href="index.html" class="text-body-secondary text-decoration-none lh-1" aria-label="Home">
+                <img src="img/Logo0.png" alt="Logo Jillert Sijens" height="60">
             </a>
         </div>
         <ul class="nav col-lg-4 justify-content-end list-unstyled d-flex align-items-center">
@@ -113,3 +314,4 @@
     </footer>
 </section>
 </body>
+</html>

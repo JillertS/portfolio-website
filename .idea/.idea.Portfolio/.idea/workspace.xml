@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74d1bb0-777d-4f9f-b6c9-6df88793c316" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/img/Jillert Sijens3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Jillert Sijens_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Poster5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Poster6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Poster7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/Poster8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Toolbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Toolbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/flyer&amp;spandoek.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/flyer&amp;spandoek.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ict.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ict.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/kaarten.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kaarten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo&amp;huisstijl.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/logo&amp;huisstijl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overige.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overige.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/toolbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/toolbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/web.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +74,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Work&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,6 +110,12 @@
       <workItem from="1793699069610" duration="4682000" />
       <workItem from="1793789057547" duration="3000" />
       <workItem from="1793893362977" duration="307000" />
+      <workItem from="1794143216908" duration="6059000" />
+      <workItem from="1794220422840" duration="8072000" />
+      <workItem from="1794299648601" duration="2349000" />
+      <workItem from="1794665780951" duration="3860000" />
+      <workItem from="1794740108258" duration="4738000" />
+      <workItem from="1794911543563" duration="12473000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio website V1">
       <option name="closed" value="true" />
