@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a74d1bb0-777d-4f9f-b6c9-6df88793c316" name="Changes" comment="website update">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a74d1bb0-777d-4f9f-b6c9-6df88793c316" name="Changes" comment="website update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +98,7 @@
       <workItem from="1794665780951" duration="3860000" />
       <workItem from="1794740108258" duration="4738000" />
       <workItem from="1794911543563" duration="13381000" />
+      <workItem from="1795084907944" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio website V1">
       <option name="closed" value="true" />
